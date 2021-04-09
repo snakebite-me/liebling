@@ -207,10 +207,10 @@
     padding-top: 0 !important;
 
     .m-article-card__info-link {
-      padding-top: 48px;
+      padding-top: 18px;
 
       @include respond-to('medium') {
-        padding-top: 53px;
+        padding-top: 26px;
       }
     }
   }
@@ -263,7 +263,9 @@
   color: var(--titles-color);
   letter-spacing: 0.3px;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 0.825rem;
+  padding-top: 14px;
+  margin-bottom: 0.4rem;
 }
 
 .m-article-card__timestamp,
@@ -272,7 +274,7 @@
   align-items: center;
   color: var(--titles-color);
   letter-spacing: 0.2px;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
 
   span:nth-child(2) {
     padding: 0 10px;
